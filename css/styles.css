@@ -104,7 +104,7 @@ color: #434455;
 }
 
 
-.link-studio:hover::after {
+.link-studio::after {
     content: "";
     position: absolute;
     width: 100%;
