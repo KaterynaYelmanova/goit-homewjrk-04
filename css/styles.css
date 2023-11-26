@@ -99,9 +99,12 @@ color: #434455;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         position: relative;
 }
+.link-studio {
+    color: #404bbf;
+}
 
 .link-studio:hover::before,
-.hero-title:hover::after {
+.link-studio:hover::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -329,7 +332,7 @@ color: #434455;
     transform: translateY(100%);
     color: #F4F4FD;
     background-color: #4D5AE5;
-    transition: transform 250ms linear;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-portfolio-item:hover .overlay {
     transform: translateY(0%);
@@ -411,8 +414,8 @@ color: #434455;
     background-color: #4D5AE5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
+.social-list-link:hover,
+.social-list-link:focus {
     stroke: #4D5AE5;
     background-color: #404bbf;
 }
@@ -427,8 +430,8 @@ color: #434455;
         background-color: #4D5AE5;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-list-link-footer:hover .social-list-icon,
-.social-list-link-footer:focus .social-list-icon {
+.social-list-link-footer:hover,
+.social-list-link-footer:focus {
     background-color: #31d0aa;
 }
 .social-list-icon {
