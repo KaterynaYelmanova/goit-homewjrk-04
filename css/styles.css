@@ -103,7 +103,7 @@ color: #434455;
     color: #404bbf;
 }
 
-.link-studio:hover::before,
+
 .link-studio:hover::after {
     content: "";
     position: absolute;
